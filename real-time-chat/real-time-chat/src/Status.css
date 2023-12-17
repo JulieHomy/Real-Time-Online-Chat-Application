@@ -1,0 +1,12 @@
+.status:empty {
+    display: none;
+  }
+ 
+  .status {
+    color: #d8000c;
+    background-color: #f2e3c9;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }

@@ -1,0 +1,22 @@
+.controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .controls-logout {
+    padding: 10px 20px;
+    margin-right: 16px;
+    background-color: #ef4b4b;
+    color: white;
+  
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls-logout:hover {
+    background-color: #ec8f6a;
+  }
