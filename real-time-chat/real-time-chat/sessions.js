@@ -11,7 +11,7 @@ function addSession(username) {
 }
 
 function getSessionUser(sid) {
-  return sessions[sid]?.username;
+  return sessions[sid].username;
 }
 
 function deleteSession(sid) {
