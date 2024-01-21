@@ -9,7 +9,7 @@ function removeChatUser(username) {
 }
 
 function isChatUserOnline(username) {
-  return chatUsers.get(username)?.online;
+  return chatUsers.get(username).online;
 }
 
 function getOnlineChatUsers() {
